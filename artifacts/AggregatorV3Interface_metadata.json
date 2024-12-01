@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "latestRoundData",
+				"outputs": [
+					{
+						"internalType": "uint80",
+						"name": "roundId",
+						"type": "uint80"
+					},
+					{
+						"internalType": "int256",
+						"name": "answer",
+						"type": "int256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "startedAT",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "updatedAT",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint80",
+						"name": "answeredInRound",
+						"type": "uint80"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"PriceConverter.sol": "AggregatorV3Interface"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"PriceConverter.sol": {
+			"keccak256": "0x9ebc7575a0380481620ee09d23a15d23e90a530d72702c61726ac26060442e52",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e6cc60ef4b3c925114c7686ef7dd944c5b9d37b0df3eca4f459ffe0291e8a6b2",
+				"dweb:/ipfs/QmdjcZfapffzjstwQK7hcRNta4nfCkibcNk7NQtjJzoyJ8"
+			]
+		}
+	},
+	"version": 1
+}
